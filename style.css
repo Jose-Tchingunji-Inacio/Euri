@@ -1,0 +1,591 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+body {
+    background: rgb(98, 151, 184);
+}
+
+hr{
+    border:1px solid #000;
+}
+
+.menu {
+    display: flex;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 0%;
+}
+
+.menu ul {
+    width: 100%;
+    display: flex;
+    padding-top: 4%;
+    padding-right: 1%;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+}
+
+.menu li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+
+    &:hover {
+        color: black;
+    }
+}
+
+#btn {
+    position: relative;
+    top: -15%;
+    border: 2px solid white;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    height: 70%;
+    padding: 0.5% 2%;
+    color: white;
+}
+
+.logo {
+    width: 20%;
+    display: inline;
+    padding-top: .1rem;
+    text-align: right;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.frases {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: x-large;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 4rem;
+}
+
+#search-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    margin-right: 10px;
+    font-size: x-large;
+    outline: none;
+}
+
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #30a9d2;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    margin-bottom: 10rem;
+
+}
+
+.cards span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 24vh;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+
+#um{
+    background-image: url("./img/imgSite/menina-negra-elegante.jpg");
+}
+#dois{
+    background-image: url("./img/imgSite/a-estacao-do-outono-folheia-a-cena-da-planta-generativa-ai.jpg");
+}
+#tres{
+    background-image: url("./img/imgSite/conceito-de-nuvem-ai-com-braco-robotico.jpg");
+}
+
+#inscrever{
+    background-color: rgb(98, 151, 184);
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    color: white;
+    font-size: large;
+    margin-left: 1.2rem;
+
+    &:hover{
+        color: black;
+    }
+}
+
+#allfrase{
+    margin-bottom: 4rem;
+}
+
+
+.cards p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: -18rem;
+    font-size: x-large;
+}
+
+.sideImg{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    padding: 1.5rem 3rem;
+}
+
+.sideImg p{
+    margin: 1.5rem;
+}
+
+div#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.galeria{
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
+    height: 70vh;
+    
+}
+
+
+p#leftSide{
+    width: 50%;
+    height: 70vh;
+    background-image: url("./img/imgSite/angola-g510012b7b_1280.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 60px;
+}
+
+#rightSide{
+    width: 50%;
+    height: 70vh;
+    display: grid;
+}
+
+
+#topImgSpan{
+    display: flex;
+}
+
+#bottomImgSpan{
+    display: flex;
+
+}
+
+#topImgSpan{
+margin-bottom: 4rem;
+}
+
+.topImg{
+    width: 50%;
+    height: 100%;
+    background-image: url("./img/imgSite/black-women-gfb8c14dc8_1280.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.topImgoutra{
+    width: 50%;
+    height: 100%;
+    background-image: url("./img/imgSite/sculpture-ga7f45e5bd_1280.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+
+.bottomImg{
+    width: 50%;
+    height: 100%;
+    background-image: url("./img/imgSite/crianca-sorridente-com-foto-media-ao-ar-livre.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.bottomImgoutra{
+    width: 50%;
+    height: 100%;
+    background-image: url("./img/imgSite/mulher-ensinando-criancas-na-classe.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.legend{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sideTec{
+    width: 100%;
+    height: 55rem;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+#sideTecInfo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.twoCards{
+    display: flex;
+    width: 100%;
+    height: 35vh;
+    margin-top: 2rem;
+
+}
+
+.leftCard{
+    width: 50%;
+    margin: 0 1.5rem;
+    background-image: url("./img/imgSite/homem-usando-oculos-inteligentes-tocando-uma-tela-holografica.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    border: 3px solid rgb(98, 151, 184);
+}
+
+.rightCard{
+    width: 50%;
+    margin: 0 1.5rem;
+    background-image: url("./img/imgSite/fundo-de-conexao-global-5g-na-ponta-do-dedo-com-remix-digital-de-tecnologia-inteligente-de-mao-feminina.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    border: 3px solid rgb(98, 151, 184);
+}
+
+.cardsBaixo{
+    display: grid;
+    border-radius: 20px;
+    align-items: center;
+    width: 50%;
+    height: 14rem;
+    margin-top: 2rem;
+    padding: 0 2.5rem;
+    color: white;
+}
+
+#btnVenda{
+    display: block;
+    width: 40%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 1.2rem;
+
+ 
+}
+
+#btnVenda a{
+    color:  rgb(98, 151, 184);   
+    text-decoration: none;
+    font-weight: 5rem;
+    &:hover{
+        color: #000;
+    }
+}
+
+.containerTec{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    margin-top: 3rem;
+    border-radius: 30px;
+    background-color:  rgb(98, 151, 184);
+}
+
+#cartao1{
+    margin: 2rem 0.5rem;
+    color:black;
+    height: 2rem;
+    padding: 2rem;
+    border: 1px solid rgb(215, 215, 215);
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#cartao2{
+    margin: 2.5rem 2.5rem;
+    padding: 2rem;
+    border-radius: 10px;
+    height: 2rem;
+    color:black;
+    border: 1px solid rgb(215, 215, 215);
+    background-color: #fff;
+}
+
+
+
+
+/*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/
+
+
+.footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    margin-top: 8rem;
+    border: 1px solid black;
+}
+
+.footer-content {
+    display: flex;
+    width: 100%;
+}
+
+.footer-content span {
+    margin-left: 5rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.footer-content p {
+    margin-top: 1.2rem;
+    color: #000;
+    font-size: 1.3rem;
+}
+
+#positionRedes {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer-bottom{
+display: flex;
+color: #fff;
+font-size: 1.5rem;
+}
+
+p#img{
+    width: 15%;
+
+    background-image: url("./img/logo-blue.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+p#copyright{
+    margin-top: 1.4rem;
+}
+
+p#btnFooter{
+    margin-left: 20rem;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover{
+        color: #000;
+    }
+}
+
+
+
+
+/*  ESTILO PARA A RESPONSIVIDADE */
+
+@media screen and (max-width: 1000px) {
+
+    .frases {
+        width: 100%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #inscrever{
+        text-align: center;
+        padding: 10px 5px;
+        font-size: medium;
+        display: block;
+    }
+    .frases {
+        width: 100%;
+        margin-left: 5%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .sideImg {
+        font-size: 2vw;
+    }
+
+    .galeria{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 120rem;
+        
+    }
+
+    #topImgSpan{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #bottomImgSpan{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    p#leftSide{
+        width: 100%;
+        height: 100%;
+    }
+
+    #rightSide{
+        width: 100%;
+        height: 100rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .topImg{
+        width: 100%;
+        height: 20rem;
+    }
+    .topImgoutra{
+        width: 100%;
+        height: 20rem;
+    }
+    
+    .bottomImg{
+        width: 100%;
+        height: 20rem;
+    }
+    .bottomImgoutra{
+        width: 100%;
+        height: 20rem;
+    }
+
+    .sideTec {
+
+        height: 140rem;
+        padding: 0rem;
+        padding-top: 90rem;
+    }
+
+    .containerTec{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+#btnVenda{
+    width: 100%;
+    margin-top: -1.5rem;
+    position: relative;
+    left: 17.4rem;
+}
+
+.footer {
+    display: grid;
+    width: 100%;
+    border: none;
+}
+
+.footer-content {
+    display: grid;
+    width: 100%;
+}
+
+.footer-bottom{
+    display: grid;
+    align-items: flex-start;
+    }
+
+    p#img{
+        width: 70%;
+        height: 12rem;
+    }
+
+    #positionRedes {
+        justify-content: start;
+    }
+    
+}
